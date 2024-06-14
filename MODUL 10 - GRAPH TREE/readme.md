@@ -64,7 +64,8 @@ int main() {
 
 ```
 ## Output
-![alt text](image.png)
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/c6fff5f1-b930-4852-8217-e3a0713bc000)
+
 Program ini adalah untuk membuat representasi graf berbobot menggunakan matriks berbobot.
 
 ### 2. Modifikasi guided tree diatas dengan program menu menggunakan input data tree dari user dan tampilkan pada pre-order, inorder, dan post order!
@@ -256,7 +257,8 @@ int main() {
 
 ```
 ## Output
-![alt text](image-1.png)
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/4897b543-745e-4243-8a89-29737ad84ec6)
+
 Program ini adalah implementasi dari struktur data pohon biner
 
 ## Referensi
