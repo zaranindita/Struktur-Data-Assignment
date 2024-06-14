@@ -126,7 +126,7 @@ int main() {
 }
 ```
 ## Output
-![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/1fb5db70-4ba8-4fa0-96cf-23d7cb0fa5af)
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/605208f0-312a-4494-904d-7cb3d5a1141c)
 
 Kode di atas digunakan untuk menyimpan dan menampilkan informasi harga eskrim.
 
@@ -177,7 +177,7 @@ int main() {
 }
 ```
 ## Output
-![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/605208f0-312a-4494-904d-7cb3d5a1141c)
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/1fb5db70-4ba8-4fa0-96cf-23d7cb0fa5af)
 Kode di atas digunakan untuk menyimpan, mengubah, dan menampilkan data.
 
 
