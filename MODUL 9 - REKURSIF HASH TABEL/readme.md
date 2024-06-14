@@ -42,7 +42,7 @@ int main() {
 ```
 ## Output
 ![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/4e74b141-f062-4d9d-b668-247e88a2d185)
-Program yang Anda berikan adalah sebuah program C++ sederhana untuk menghitung faktorial dari sebuah bilangan bulat positif menggunakan fungsi rekursif.
+Program yang Anda berikan adalah program sederhana untuk menghitung faktorial dari sebuah bilangan bulat positif menggunakan fungsi rekursif.
 
 ### 2. Buatlah versi program Rekursif Tidak Langsung (Indirect Recursion) dari soal nomor 1 di atas!
 
