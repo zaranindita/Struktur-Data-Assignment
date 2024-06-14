@@ -42,10 +42,8 @@ int main() {
 }
 ```
 ## Output
-![alt text](image.png)
-
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/4e74b141-f062-4d9d-b668-247e88a2d185)
 Program yang Anda berikan adalah sebuah program C++ sederhana untuk menghitung faktorial dari sebuah bilangan bulat positif menggunakan fungsi rekursif.
-
 
 ### 2. Buatlah versi program Rekursif Tidak Langsung (Indirect Recursion) dari soal nomor 1 di atas!
 
@@ -84,6 +82,10 @@ int main() {
     return 0;
 }
 ```
+## Output
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/8a93e770-a37f-48bf-87c3-65b6b7b79a03)
+
+Program ini adalah implementasi dari dua fungsi faktorial factorialA dan factorialB yang saling memanggil secara rekursif tidak langsung. 
 
 ### 3. Implementasikan hash table untuk menyimpan data mahasiswa. Setiap mahasiswa memiliki NIM dan nilai. Implementasikan fungsi untuk menambahkan data baru, menghapus data, mencari data berdasarkan NIM, dan mencari data berdasarkan nilai. Dengan ketentuan :
 a. Setiap mahasiswa memiliki NIM dan nilai.
@@ -210,7 +212,7 @@ int main() {
 }
 ```
 ## Output
-![alt text](image-2.png)
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/4157fbfa-6bd8-4e70-b149-53c375fdc6f7)
 Program ini adalah sebuah aplikasi sederhana untuk mengelola data mahasiswa untuk menyimpan data mahasiswa berdasarkan NIM.
 
 ## Referensi
