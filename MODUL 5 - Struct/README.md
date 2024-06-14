@@ -62,7 +62,10 @@ int main(){
     return 0;
 }
 ```
+## output
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/0d541eb4-9468-4463-be66-091732ca2c51)
 
+Program di atas untuk mendefinisikan struktur data untuk menyimpan informasi tentang buku, mengisi data untuk dua buku, dan menampilkan informasi tersebut.
 
 ### 2. Apa yang terjadi jika deklarasi variabel struct yang dibuat pada tugas guided I,
 berjenis Array. Bagaimana cara mengisi data dan menampilkannya ?
@@ -117,65 +120,8 @@ int main() {
 }
 ```
 ## Output
-![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/f548dedb-3cf3-4cc5-a3a7-5acfd1b6bf3b)
-
-Program di atas adalah program mendefinisikan struktur untuk menyimpan informasi buku, mengisi data buku melalui input pengguna, dan kemudian menampilkan informasi tersebut
-
-### 2. Apa yang terjadi jika deklarasi variabel struct yang dibuat pada tugas guided I, berjenis Array. Bagaimana cara mengisi data dan menampilkannya ?
-
-```C++
-#include <iostream>
-#include <string>
-using namespace std;
-
-// struct buku
-struct buku {
-    string judulbuku;
-    string pengarang;
-    string penerbit;
-    int tebal_buku;
-    double harga_buku;
-};
-
-int main() {
-    const int jumlah_buku = 2;
-    buku daftar_buku[jumlah_buku];
-
-    // mengisi data dalam array
-    for (int i = 0; i < jumlah_buku; ++i) {
-        cout << "Masukkan informasi untuk buku ke-" << i + 1 << ":" << endl;
-        cout << "Judul buku: ";
-        getline(cin, daftar_buku[i].judulbuku);
-        cout << "Pengarang: ";
-        getline(cin, daftar_buku[i].pengarang);
-        cout << "Penerbit: ";
-        getline(cin, daftar_buku[i].penerbit);
-        cout << "Tebal buku: ";
-        cin >> daftar_buku[i].tebal_buku;
-        cout << "Harga buku: ";
-        cin >> daftar_buku[i].harga_buku;
-
-        cin.ignore();
-    }
-
-    // menampilkan informasi 
-    cout << "\nInformasi buku:\n";
-    for (int i = 0; i < jumlah_buku; ++i) {
-        cout << "\nBuku ke-" << i + 1 << ":\n";
-        cout << "Judul: " << daftar_buku[i].judulbuku << endl;
-        cout << "Pengarang: " << daftar_buku[i].pengarang << endl;
-        cout << "Penerbit: " << daftar_buku[i].penerbit << endl;
-        cout << "Tebal: " << daftar_buku[i].tebal_buku << " halaman" << endl;
-        cout << "Harga: " << daftar_buku[i].harga_buku << " IDR" << endl;
-    }
-
-    return 0;
-}
-```
-## Output
-![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/4a2b80a8-4306-40c8-9c14-a21e294aaf89)
-
-Program di atas adalah program mendefinisikan struktur untuk menyimpan informasi buku, mengisi data buku melalui input pengguna, dan kemudian menampilkan informasi tersebut dalam bentuk array
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/fffb979c-20b0-4b29-9acb-a07c8929e274)
+Program di atas adalah program mendefinisikan struktur untuk menyimpan informasi buku, mengisi data buku melalui input pengguna, dan kemudian menampilkan informasi tersebut dalam array.
 
 ## Referensi
 [1].Triase (2020). Diktat Edisi Revisi STRUKTUR DATA
