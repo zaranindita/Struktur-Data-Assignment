@@ -1,6 +1,12 @@
 # <h1 align="center">Laporan Praktikum Modul Array</h1>
 <p align="center">Zahra Adya Nindita (2311110027)</p>
 
+## Teori
+
+Program Array berupa suatu bahasa pemprograman yang bertujuan untuk
+menentukan nilai tengah serta dapat menampung elemen-elemen berbeda dengan
+tipe yang sama terdiri atas beberapa indeks.Pemprograman ini berfungsi untuk
+menentukan suatu nilai rata-rata dari suatu data dengan skala yang besar dan jumalah data yang besar. Sistem pengembang array yang terdiri dari indeks yang berbeda namun tipe data tetap sama dimana indeks terdiri dari beberapa variabel yang berbeda secara spesifik dan menggunakan bahasa array float dan cout yang mengelompokan data berdasarkan tipe data itu sendiri.
 
 ## Unguided 
 
@@ -67,7 +73,10 @@ int main() {
     return 0;
 }
 ```
+## Output
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/cf0fcf6c-a1b2-4d95-9572-8185dd18bdd7)
 
+Membuat program yang dapat menampilkan output sesaui dengan inputan user
 
 ### 2. Buatlah program Input array tiga dimensi (seperti pada guided) tetapi jumlah atau ukuran elemennya diinputkan oleh user!
 
@@ -117,6 +126,9 @@ int main() {
     return 0;
 }
 ```
+## Output
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/b35ae5c0-524a-44f8-996b-84b57727d1f9)
+Program di atas adalah program  yang meminta pengguna untuk memasukkan ukuran dan nilai dari sebuah array tiga dimensi, kemudian menampilkan array tersebut. 
 
 ### 3. Buatlah program menu untuk mencari nilai Maksimum, Minimum dan Nilai rata – rata dari suatu array dengan input yang dimasukan oleh user!
 
@@ -179,3 +191,11 @@ int main() {
     return 0;
 }
 ```
+## Output
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/8bab7006-399b-42a5-b362-d35d97a40064)
+Program di atas adalah program yang memungkinkan pengguna untuk menginput sejumlah elemen dalam sebuah array, kemudian menghitung dan menampilkan nilai maksimum, minimum, dan rata-rata dari elemen-elemen tersebut.
+lalu, pengguna dapat memilih apakah ingin mengulang proses dengan data baru.  
+
+## Referensi 
+[1] Leni Marlina (2023). PENGEMBANGAN SISTEM ARRAY DALAM MENENTUKAN NILAI RATA-RATA TINGGI BADAN
+
