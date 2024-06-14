@@ -3,10 +3,11 @@
 
 ## Dasar Teori
 
-1. Linked List Tunggal (Singly Linked List)
-Pada linked list tunggal, setiap node hanya memiliki satu pointer yang mengarah ke node berikutnya dalam urutan. Pointer ini dikenal sebagai “next” atau “next pointer”. Dengan menggunakan pointer ini, kita dapat bergerak maju melalui linked list dari elemen pertama (head) hingga elemen terakhir (tail). Namun, untuk mencari node sebelumnya dari suatu node, kita perlu melintasi linked list secara linier dari awal hingga mencapai node yang diinginkan.
-2. Linked List Ganda (Doubly Linked List)
-Pada linked list ganda, setiap node memiliki dua pointer. Pointer pertama adalah “next” yang mengarah ke node berikutnya dalam urutan, sedangkan pointer kedua adalah “previous” atau “prev” yang mengarah ke node sebelumnya. Dengan menggunakan kedua pointer ini, kita dapat bergerak maju maupun mundur dalam linked list. Hal ini memungkinkan kita untuk dengan mudah mencari node sebelum dan sesudah suatu node tertentu tanpa perlu melintasi seluruh linked list.
+Pada pemrograman struktur data, stack dan queue adalah dua jenis struktur data non primitif
+bertipe data abstrak yang digunakan untuk menyimpan elemen data baik di array maupun di linked
+list yang sebenarnya didasarkan pada beberapa kejadian di kehidupan nyata. Stack menggunakan
+metode LIFO (last in first out) untuk mengakses dan menambahkan elemen data sedangkan queue
+menggunakan metode FIFO (First in first out) untuk mengakses dan menamhkan elemen data. 
 
 ## Unguided 
 
@@ -191,6 +192,11 @@ int main() {
     return 0;
 }
 ```
+## Output
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/ec40b9eb-44ed-40e8-98c9-64e9e491fbe1)
+
+Berikut adalah contoh program  yang menggunakan stack untuk menentukan apakah sebuah kalimat merupakan palindrom atau tidak dan tidak membedakan huruf besar dan kecil. 
+
 ### 2. Modifikasi Guided Double Linked List dilakukan dengan penambahan operasi untuk menambah data, menghapus, dan update di tengah / di urutan tertentu yang diminta. Selain itu, buatlah agar tampilannya menampilkan Nama produk dan harga.
 Nama Produk	Harga
 Originote	60.000
@@ -413,7 +419,11 @@ int main() {
     return 0;
 }
 ```
-
+## Output
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/8eb62ff7-6e70-4e5b-abf7-c11c8f7b3327)
+Program yang telah diubah untuk menerima input dari user dan menampilkan menu untuk mengelola antrian
 
 ## Referensi
-[1] (https://medium.com/@aryandi/belajar-struktur-data-linked-list-115fff677253)
+[1] Johnson Sihombing. PENERAPAN STACK DAN QUEUE PADA ARRAY DAN LINKED LIST DALAM JAVA 
+
+
