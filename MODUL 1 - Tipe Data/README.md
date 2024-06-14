@@ -57,10 +57,10 @@ int main() {
     return 0;
 }
 ```
+## Output
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/9042e7a4-dd37-461e-ac4f-51ac5bb57c6e)
 
 Kode di atas digunakan untuk mencaqri luas persegi dan luas segitiga.
-
-
 
 ### 2. [Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya]
 
@@ -125,10 +125,10 @@ int main() {
     return 0;
 }
 ```
+## Output
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/1fb5db70-4ba8-4fa0-96cf-23d7cb0fa5af)
 
 Kode di atas digunakan untuk menyimpan dan menampilkan informasi harga eskrim.
-
-
 
 ### 3. [Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dariarray dengan map.]
 
@@ -176,13 +176,11 @@ int main() {
     return 0;
 }
 ```
-
+## Output
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/605208f0-312a-4494-904d-7cb3d5a1141c)
 Kode di atas digunakan untuk menyimpan, mengubah, dan menampilkan data.
 
 
 ## Referensi
-DAFTAR PUSTAKA
-C++ Map. (n.d.). Programiz. Retrieved March 17, 2024, from https://www.programiz.com/cpp-programming/map
-C++ Structures (struct). (n.d.). W3Schools. Retrieved March 17, 2024, from https://www.w3schools.com/cpp/cpp_structs.asp
-Goodrich, M. T., Tamassia, R., & Mount, D. M. (2011). Data Structures and Algorithms in C++. Wiley.
+[1] Goodrich, M. T., Tamassia, R., & Mount, D. M. (2011). Data Structures and Algorithms in C++. Wiley.
 Pratama, M. A. (2020). STRUKTUR DATA ARRAY DUA DIMENSI PADA PEMROGRAMAN C++. 8.
