@@ -46,6 +46,7 @@ int main() {
 
 Program yang Anda berikan adalah sebuah program C++ sederhana untuk menghitung faktorial dari sebuah bilangan bulat positif menggunakan fungsi rekursif.
 
+
 ### 2. Buatlah versi program Rekursif Tidak Langsung (Indirect Recursion) dari soal nomor 1 di atas!
 
 ```C++
