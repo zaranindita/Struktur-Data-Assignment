@@ -426,7 +426,3 @@ Program di atas adalah program yang mengelola daftar produk skincare menggunakan
 [1] Hermawan Wijaya, Wibisono Sukmo Wardhono, Issa Arwani (2018). Implementasi Linked List pada Interaksi Antar Marker Augmented Reality untuk Operand dan Operator Aritmetika. Vol. 2, No. 9. hlm. 3328-3332
 
 
-
-
-## Referensi
-[1] (https://medium.com/@aryandi/belajar-struktur-data-linked-list-115fff677253)
