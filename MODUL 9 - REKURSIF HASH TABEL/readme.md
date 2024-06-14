@@ -3,11 +3,10 @@
 
 ## Dasar Teori
 
-1. Rekursif
-Rekursif adalah sebuah algoritma yang berisi pemanggilan dirinya sendiri sehingga menghasilkan looping. Harus ada batasan di dalam rekursif sehingga looping dapat dibatalkan, jika tidak maka akan terjadi infinity loop dan
+1. Rekursif adalah sebuah algoritma yang berisi pemanggilan dirinya sendiri sehingga menghasilkan looping. Harus ada batasan di dalam rekursif sehingga looping dapat dibatalkan, jika tidak maka akan terjadi infinity loop dan
 dapat menyebabkan memori penuh.
-2. Hash Tabel
-Hashing adalah transformasi aritmatik sebuah string dari karakter menjadi nilai yang merepresentasikan string
+
+2. Hash adalah transformasi aritmatik sebuah string dari karakter menjadi nilai yang merepresentasikan string
 aslinya. Menurut bahasanya, hash berarti memenggal dan kemudian menggabungkan. Hashing digunakan sebagai metode untuk menyimpan data dalam sebuah array agar penyimpanan data,
 pencarian data, penambahan data, dan penghapusan data dapat dilakukan dengan cepat. Ide dasarnya adalah menghitung posisi record yang dicari dalam array, bukan membandingkan record dengan isi pada array. Fungsi
 yang mengembalikan nilai atau kunci disebut fungsi hash (hash function) dan array yang digunakan disebut tabel hash (hash table). Secara teori, kompleksitas waktu (T(n)) dari fungsi hash yang ideal adalah O(1). Untuk mencapai itu setiap record membutuhkan suatu kunci yang unik. 
