@@ -2,11 +2,7 @@
 <p align="center">Zahra Adya Nindita (2311110027)</p>
 
 ## Dasar Teori
-
-1. Linked List Tunggal (Singly Linked List)
-Pada linked list tunggal, setiap node hanya memiliki satu pointer yang mengarah ke node berikutnya dalam urutan. Pointer ini dikenal sebagai “next” atau “next pointer”. Dengan menggunakan pointer ini, kita dapat bergerak maju melalui linked list dari elemen pertama (head) hingga elemen terakhir (tail). Namun, untuk mencari node sebelumnya dari suatu node, kita perlu melintasi linked list secara linier dari awal hingga mencapai node yang diinginkan.
-2. Linked List Ganda (Doubly Linked List)
-Pada linked list ganda, setiap node memiliki dua pointer. Pointer pertama adalah “next” yang mengarah ke node berikutnya dalam urutan, sedangkan pointer kedua adalah “previous” atau “prev” yang mengarah ke node sebelumnya. Dengan menggunakan kedua pointer ini, kita dapat bergerak maju maupun mundur dalam linked list. Hal ini memungkinkan kita untuk dengan mudah mencari node sebelum dan sesudah suatu node tertentu tanpa perlu melintasi seluruh linked list.
+Linked List merupakan salah satu metode dalam Algoritma dan Struktur Data yang digunakan untuk mengorganisasi struktur data dalam sebuah sistem. Linked List memiliki keunggulan dibandingkan Array dalam hal menambahkan dan mengurangi elemennya (Ryan, 2008).
 
 ## Unguided 
 
@@ -191,6 +187,14 @@ int main() {
     return 0;
 }
 ```
+## Output
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/250cd3a6-f39e-4e17-b983-519390992b7d)
+
+Program implemetasi struktur data linked list untuk menyimpan dan mengelola data berupa
+nama dan umur dan menyediakan beberapa operasi dasar pada linked list seperti menambah
+data, menghapus data, menambah data di antara node, mengubah data, dan menampilkan
+data.
+
 ### 2. Modifikasi Guided Double Linked List dilakukan dengan penambahan operasi untuk menambah data, menghapus, dan update di tengah / di urutan tertentu yang diminta. Selain itu, buatlah agar tampilannya menampilkan Nama produk dan harga.
 Nama Produk	Harga
 Originote	60.000
@@ -413,6 +417,15 @@ int main() {
     return 0;
 }
 ```
+# Output
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/b0be0867-6e94-46e8-b189-f333b223b121)
+
+Program di atas adalah program yang mengelola daftar produk skincare menggunakan struktur data linked list ganda (doubly linked list). Program ini menyediakan berbagai operasi untuk menambahkan, menghapus, mengupdate, dan menampilkan data produk.
+
+## Referensi
+[1] Hermawan Wijaya, Wibisono Sukmo Wardhono, Issa Arwani (2018). Implementasi Linked List pada Interaksi Antar Marker Augmented Reality untuk Operand dan Operator Aritmetika. Vol. 2, No. 9. hlm. 3328-3332
+
+
 
 
 ## Referensi
