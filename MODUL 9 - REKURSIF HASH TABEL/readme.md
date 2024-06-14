@@ -4,14 +4,13 @@
 ## Dasar Teori
 
 1. Rekursif
-Rekursif adalah sebuah teknik di pemrograman, di mana sebuah fungsi memanggil dirinya sendiri. Mirip dengan loop (pengulangan), yang kedua tujuannya memanggil aksi yang sama berkali-kali.
-Namun rekursi sering digunakan untuk menyelesaikan masalah yang lebih kompleks:
-- yang tidak bisa (sulit) diselesaikan dengan loop biasa
-- kode implementasinya akan sangat sulit dibaca jika menggunakan loop (iterasi)
+Rekursif adalah sebuah algoritma yang berisi pemanggilan dirinya sendiri sehingga menghasilkan looping. Harus ada batasan di dalam rekursif sehingga looping dapat dibatalkan, jika tidak maka akan terjadi infinity loop dan
+dapat menyebabkan memori penuh.
 2. Hash Tabel
-Hash table merupakan struktur data yang secara asosiatif menyimpan data. Dalam hal ini, data disimpan dalam format array, di mana setiap nilai data memiliki nilai indeks uniknya sendiri. Akses data akan menjadi sangat cepat jika Anda mengetahui indeks dari data yang diinginkan. 
-Fungsi utamanya pada data adalah mempercepat proses akses data. Hal ini berkaitan dengan peningkatan data dalam jumlah besar yang diproses oleh jaringan data global dan lokal. Hash table adalah solusi untuk membuat proses akses data lebih cepat dan memastikan bahwa data dapat dipertukarkan dengan aman. 
-Di dalam banyak bidang, hash table dikembangkan dan digunakan karena menawarkan kelebihan dalam efisiensi waktu operasi, mulai dari pengarsipan hingga pencarian data. Contohnya adalah bidang jaringan komputer yang mengembangkannya menjadi hybrid open hash table, yang kemudian dipakai untuk memproses jaringan komputer.
+Hashing adalah transformasi aritmatik sebuah string dari karakter menjadi nilai yang merepresentasikan string
+aslinya. Menurut bahasanya, hash berarti memenggal dan kemudian menggabungkan. Hashing digunakan sebagai metode untuk menyimpan data dalam sebuah array agar penyimpanan data,
+pencarian data, penambahan data, dan penghapusan data dapat dilakukan dengan cepat. Ide dasarnya adalah menghitung posisi record yang dicari dalam array, bukan membandingkan record dengan isi pada array. Fungsi
+yang mengembalikan nilai atau kunci disebut fungsi hash (hash function) dan array yang digunakan disebut tabel hash (hash table). Secara teori, kompleksitas waktu (T(n)) dari fungsi hash yang ideal adalah O(1). Untuk mencapai itu setiap record membutuhkan suatu kunci yang unik. 
 
 ## Unguided 
 
@@ -42,6 +41,11 @@ int main() {
     return 0;
 }
 ```
+## Output
+![alt text](image.png)
+
+Program yang Anda berikan adalah sebuah program C++ sederhana untuk menghitung faktorial dari sebuah bilangan bulat positif menggunakan fungsi rekursif.
+
 ### 2. Buatlah versi program Rekursif Tidak Langsung (Indirect Recursion) dari soal nomor 1 di atas!
 
 ```C++
@@ -204,8 +208,11 @@ int main() {
     return 0;
 }
 ```
+## Output
+![alt text](image-2.png)
+Program ini adalah sebuah aplikasi sederhana untuk mengelola data mahasiswa untuk menyimpan data mahasiswa berdasarkan NIM.
 
 ## Referensi
-[1] (https://algorit.ma/blog/hash-table-adalah-2022/)
-[2] (https://sko.dev/wiki/rekursif)
+[1]. Fenina Adline Twince Tobing, Prayogo, Alex Chandra (2022). Analisis Perbandingan Fibonacci dengan Iterasi dan Rekursi Terhadap Efektifitas Waktu. Vol 01, No 02:halaman 188-195
+[2]. Puthut Prabancono (2008). Penerapan Algoritma Runut-balik dalam Fungsi Hash
 
