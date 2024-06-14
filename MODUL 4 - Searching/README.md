@@ -154,4 +154,5 @@ Program di atas adalah program yang mencari dan menghitung berapa kali angka 4 m
 
 ## Referensi
 [1]. Bhakti Siswanto,Nia Nuraeni (2022). Implementasi Algoritma Sequential Searching pada Pencarian Transaksi Bilyet Giro Wisma BCA Pondok Indah Berbasis Website. Vol.10 No.1, pp. 6-11
+
 [2]. Bernad Jumadi Dehotman Sitompul, Ade Yusupa, Nancy Jeane Tuturoong (2022) IMPLEMENTASI ALGORITMA BINARY SEARCH PADA PENCARIAN DATA JEMAAT GEREJA HKBP MANADO
