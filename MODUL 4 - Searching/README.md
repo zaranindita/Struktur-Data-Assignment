@@ -2,18 +2,9 @@
 <p align="center">Zahra Adya Nindita (23111110027)</p>
 
 ## Dasar Teori
-Pencarian (Searching) yaitu proses menemukan suatu nilai tertentu pada kumpulan data. Hasil pencarian adalah salah satu dari tiga keadaan 
-ini: data ditemukan, data ditemukan lebih dari satu, atau data tidak
-ditemukan.. Searching juga dapat dianggap sebagai proses pencarian suatu
-data di dalam sebuah array dengan cara mengecek satu persatu pada
-setiap index baris atau setiap index kolomnya dengan menggunakan teknik
-perulangan untuk melakukan pencarian data.
-1. Sequential Search
-Sequential Search merupakan salah satu algoritma pencarian data
-yang biasa digunakan untuk data yang berpola acak atau belum terurut.
-2. Binary Search
-Binary Search termasuk ke dalam interval search, dimana algoritma
-ini merupakan algoritma pencarian pada array/list dengan elemen terurut.
+1. Sequential Search merupakan metode pencarian data dalam array dengan cara membandingkan data yang dicari
+dengan data yang ada di dalam array secara berurutan. Pencarian data dengan metode sequential search efektif untuk mencari data yang dalam posisi tidak berurut atau acak(Sitorus, 2015).
+2. Algoritma binary search merupakan salah satu algoritma yang digunakan untuk melakukan proses pencarian data yang sudah terurut (Sulistio et al.,2019
 
 
 ## Unguided 
@@ -81,6 +72,10 @@ int main() {
     return 0;
 }
 ```
+## Output
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/54c0a906-ed3a-495a-8d02-33fd11434037)
+
+Program di atas adalah program  yang mencari huruf tertentu dalam sebuah kalimat yang dimasukkan pengguna. Program ini menggunakan algoritma Binary Search setelah mengurutkan kalimat menggunakan Bubble Sort.
 
 ### 2. Buatlah sebuah program yang dapat menghitung banyaknya huruf
 vocal dalam sebuah kalimat!
@@ -115,6 +110,11 @@ int main() {
     return 0;
 }
 ```
+## Output
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/813061ae-ed23-4d64-9319-87152671eeb6)
+
+Program untuk menghitung jumlah huruf vokal dalam sebuah kalimat yang dimasukkan oleh pengguna.
+
 ### 3. Diketahui data = 9, 4, 1, 4, 7, 10, 5, 4, 12, 4. Hitunglah berapa banyak
 angka 4 dengan menggunakan algoritma Sequential Search!
 
@@ -148,3 +148,10 @@ int main() {
     return 0;
 }
 ```
+## Output
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/4e9ec6cb-8e56-46be-b82e-b39d9e2a5a53)
+Program di atas adalah program yang mencari dan menghitung berapa kali angka 4 muncul dalam sebuah array. 
+
+## Referensi
+[1]. Bhakti Siswanto,Nia Nuraeni (2022). Implementasi Algoritma Sequential Searching pada Pencarian Transaksi Bilyet Giro Wisma BCA Pondok Indah Berbasis Website. Vol.10 No.1, pp. 6-11
+[2]. Bernad Jumadi Dehotman Sitompul, Ade Yusupa, Nancy Jeane Tuturoong (2022) IMPLEMENTASI ALGORITMA BINARY SEARCH PADA PENCARIAN DATA JEMAAT GEREJA HKBP MANADO
