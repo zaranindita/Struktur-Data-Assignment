@@ -2,22 +2,14 @@
 <p align="center">Zahra Adya Nindita (2311110027)</p>
 
 ## Dasar Teori
-
 1. Graph
-Graph adalah jenis struktur data umum yang susunan datanya tidak berdekatan satu sama lain (non-linier). Graph terdiri dari kumpulan simpul berhingga untuk menyimpan data dan antara dua buah simpul terdapat hubungan saling keterkaitan.Graph banyak dimanfaatkan untuk menyelesaikan masalah dalam kehidupan nyata, dimana masalah tersebut perlu direpresentasikan atau diimajinasikan seperti sebuah jaringan. Contohnya adalah jejaring sosial (seperti Facebook, Instagram, LinkedIn)
-Jenis-jenis graph:
-1. Undirected Graph
-Pada undirected graph, simpul-simpulnya terhubung dengan edge yang sifatnya dua arah. Misalnya kita punya simpul 1 dan 2 yang saling terhubung, kita bisa menjelajah dari simpul 1 ke simpul 2, begitu juga sebaliknya.
-2. Directed Graph
-Pada graph jenis ini simpul-simpulnya terhubung oleh edge yang hanya bisa melakukan jelajah satu arah pada simpul yang ditunjuk. Sebagai contoh jika ada simpul A yang terhubung ke simpul B, namun arah panahnya menuju simpul B, maka kita hanya bisa melakukan jelajah (traversing) dari simpul A ke simpul B, dan tidak berlaku sebaliknya.
-3. Weighted Graph
-Weighted graph adalah jenis graph yang cabangnya diberi label bobot berupa bilangan numerik. Pemberian label bobot pada edge biasanya digunakan untuk memudahkan algoritma dalam menyelesaikan masalah.
-Implementasinya misalkan kita ingin menyelesaikan masalah dalam mencari rute terpendek dari lokasi A ke lokasi D, namun kita juga dituntut untuk mempertimbangkan kepadatan lalu lintas, panjang jalan dll. 
-4. Unweighted Graph
-Unweighted graph tidak memiliki properti bobot pada koneksinya. Graph ini hanya mempertimbangkan apakah dua node saling terhubung atau tidak
+Graph merupakan struktur data linear yangdapat didefinisikan sebagai himpunan atauketerhubungan tak terbatas antara verteks (entitasdata). Graph juga dapat didefinisikan dengan struktur yang elemennya memiliki hubungan
+many to many. Suatu graph mengandung dua himpunanyaitu himpunan V dan himpunan E. Himpunan Vmerupakan himpunan verteks dan E himpunanyang terdefinisi antara pasangan verteks.Banyaknya verteks disebut dengan order dan banyaknya edge (ruas) dikenal dengan size darigraph. Suatu graph yang tidak memiliki self-loopdapat juga disebut sebagai graph sederhana atausimple graph.
 
 2. Tree
-Dalam Struktur Data Konsep Tree mirip seperti pohon yaitu kumpulan node yang saling terhubung satu sama lain dalam suatu kesatuan yang membentuk layaknya struktur sebuah pohon. Struktur Tree adalah suatu cara merepresentasikan suatu struktur hirarki ( one — to many ) secara grafis yang mirip sebuah pohon, walaupun pohon tersebut hanya tampak sebagai kumpulan — node — node dari atas ke bawah. Konsep Tree Di seuah struktur data yang tidak linier yang menggambarkan hubungan yang hirarkis ( one to many ) dan tidak linier antara elemen — elemennya. Dalam Konsep Tree di sebuah Node ada namanya Node Root. Node Root dalam sebuah tree yang dimaksud adalah suatu node yang memiliki hirarki tertinggi dan dapat juga memiliki node — node anak atau yang disebut child node. jadi semua node yang dapat ditelurusan dari node root tersebut. Node Root dicirikan adalah suatu node khusus yang tercipta pertama kalinya. Sedangkan Node — Node lain dibawah node root saling terhubung satu sama lain disebut sebagai Subtree.
+Pohon (tree) adalah sebuah struktur data yang terdiri dari simpul (node) dan rusuk (edge). Simpul pada sebuah
+pohon dibedakan menjadi tiga, yaitu simpul akar (root/node), simpul percabangan/internal (branch/internal
+node) dan simpul daun (leaf node)
 
 ## Unguided 
 
@@ -71,6 +63,10 @@ int main() {
 }
 
 ```
+## Output
+![alt text](image.png)
+Program ini adalah untuk membuat representasi graf berbobot menggunakan matriks berbobot.
+
 ### 2. Modifikasi guided tree diatas dengan program menu menggunakan input data tree dari user dan tampilkan pada pre-order, inorder, dan post order!
 
 
@@ -258,11 +254,11 @@ int main() {
     return 0;
 }
 
-
-
 ```
+## Output
+![alt text](image-1.png)
+Program ini adalah implementasi dari struktur data pohon biner
 
 ## Referensi
-[1] (https://www.trivusi.web.id/2022/07/struktur-data-graph.html)
-[2] (https://daismabali.medium.com/memahami-konsep-tree-dalam-struktur-data-lengkap-dengan-source-code-programnya-acbd0a8733d6)
-
+[1] Rizky agung saragiih, Surya Habibi Syahrozi, Indra Gunawan. Data dan Struktur Data
+[2]. Asmaul Husnah Nasrullah (2021). IMPLEMENTASI ALGORITMA DECISION TREE UNTUK KLASIFIKASI PRODUK LARIS 
