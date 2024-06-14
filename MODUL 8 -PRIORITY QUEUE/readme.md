@@ -126,7 +126,10 @@ int main() {
     return 0;
 }
 ```
+## Output
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/0a799f63-e303-4a95-907c-c029024ec41f)
+Program ini adalah implementasi dari struktur data antrian prioritas (priority queue) menggunakan heap maksimum (max heap) dengan array. 
 
 ## Referensi
-[1] (https://medium.com/@furatamarizuki/priority-queue-konsep-dan-penggunaan-dalam-algoritma-f4c1cd117ba)
+[1]. Yoga Pradafa Harahap, Aditya Prapanca (2021). AnalisisAlgoritma Penjadwalan Priority Queueing (PQ) Terhadap Quality of Service (QoS) pada Jaringan Mobile WiMAXMenggunakan OPNET Modeler. Vol 03 No 02
 
