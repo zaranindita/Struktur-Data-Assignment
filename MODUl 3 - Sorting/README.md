@@ -1,6 +1,20 @@
 # <h1 align="center">Laporan Praktikum Modul SORTING</h1>
 <p align="center">Zahra Adya Nindita (2311110027)</p>
 
+## Dasar Teori
+Algoritma pengurutan (sorting) meletakkan elemen data kedalam kumpulan data
+urutan tertentu, proses pengurutan yang sebelumnya data disusun acak menjadi tersusun
+teratur menurut aturan tertentu [Saputro and Khasanah, 2018]. Pengurutan merupakan hal yang
+tidak bisa dipisahkan dari dunia komputer. Sekarang ini Google dikenal sebagai mesin pencari
+terbesar di dunia. Dalam hitungan detik dapat diperoleh informasi yang diinginkan. Adanya
+kebutuhan terhadap proses pengurutan memunculkan bermacam-macam metode pengurutan
+yang bertujuan untuk memperoleh metode pengurutan yang optimal [Sitorus and Sembiring,
+2012].
+Pengurutan data (sorting) didefinisikan sebagai proses untuk menyusun kembali
+himpunan objek dengan menggunakan aturan tertentu. Tujuannya adalah untuk mendapatkan
+kemudahan dalam pencarian dari suatu himpunan. Kelebihan suatu data yang terurut adalah
+mudah untuk dicek apabila ada data yang hilang. 
+
 
 ## Unguided 
 
@@ -45,6 +59,8 @@ int main() {
     return 0;
 }
 ```
+## Output
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/cbc2e78f-20d1-464d-926b-00c06f8e64cf)
 Kode di atas digunakan untuk mengurutkan IPS Mhs dengan selection sort.
 
 
@@ -85,6 +101,8 @@ int main() {
     return 0;
 }
 ```
+## output
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/05304f54-d2b8-4e61-9550-f88d3b4433cd)
 Kode di atas digunakan untuk mengurutkan nama warga dengan bubble sort.
 
 ### 3. Buatlah program yang meminta user menginputkan suatu bilangan n dan meminta user
@@ -173,4 +191,10 @@ int main() {
     return 0;
 }
 ```
+![image](https://github.com/zaranindita/Struktur-Data-Assignment/assets/160976449/85e7df1e-ed6d-46d3-8521-1139a3cff50a)
 Kode di atas digunakan untuk mengurutkan karakter yang diinginkan secara ascending maupun descending.
+
+## Referensi
+[1]  Retnoningsih E. 2018. Algoritma Pengurutan Data (Sorting) Dengan Metode
+Insertion Sort dan Selection Sort. Information Management For Educators And Professionals. 3
+(1): 95 - 106. 
